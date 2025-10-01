@@ -212,7 +212,7 @@ document.addEventListener('DOMContentLoaded', () => {
       observer.observe(section);
     });
   
-  fetch("./templates/gist.html")
+  fetch("templates/gist.html")
     .then((response) => {
       // Check if the request was successful
       if (!response.ok) {
@@ -230,3 +230,4 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
   
+
